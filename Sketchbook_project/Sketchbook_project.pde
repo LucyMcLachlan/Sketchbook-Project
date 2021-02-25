@@ -21,7 +21,7 @@ void setup() {
 void draw() {
 }
 void mouseDragged() {
-  if (mouseX>100 && mouseX<510 && mouseY>60 && mouseY<560 && pmouseX>100 && pmouseX<510 && pmouseY>60 && pmouseY<560) {
+  if (mouseX>100 && mouseX<600 && mouseY>60 && mouseY<560) {
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
 }
